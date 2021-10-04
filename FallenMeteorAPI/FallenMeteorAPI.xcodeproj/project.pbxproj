@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A514B2D2709D5E70090C728 /* FallenMeteorAPI.docc in Sources */ = {isa = PBXBuildFile; fileRef = 0A514B2C2709D5E70090C728 /* FallenMeteorAPI.docc */; };
+		0A514B332709D5E70090C728 /* FallenMeteorAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A514B282709D5E70090C728 /* FallenMeteorAPI.framework */; };
+		0A514B382709D5E70090C728 /* FallenMeteorAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A514B372709D5E70090C728 /* FallenMeteorAPITests.swift */; };
+		0A514B392709D5E70090C728 /* FallenMeteorAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A514B2B2709D5E70090C728 /* FallenMeteorAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A514B4F2709DB9B0090C728 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A514B4E2709DB9B0090C728 /* HttpClient.swift */; };
+		0A514B512709DDB90090C728 /* HttpClientTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A514B502709DDB90090C728 /* HttpClientTest.swift */; };
+		0A514B532709EFF70090C728 /* ExtensionURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A514B522709EFF70090C728 /* ExtensionURL.swift */; };
+		0A514B552709F0E70090C728 /* CustomErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A514B542709F0E70090C728 /* CustomErrors.swift */; };
+		0A514B572709F2100090C728 /* TestURLComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A514B562709F2100090C728 /* TestURLComponents.swift */; };
+		0A514B592709F92A0090C728 /* ExtensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A514B582709F92A0090C728 /* ExtensionString.swift */; };
+		0A514B5B2709F9CB0090C728 /* StringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A514B5A2709F9CB0090C728 /* StringTest.swift */; };
+		0A514B5D270A08710090C728 /* NetMeteorLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A514B5C270A08710090C728 /* NetMeteorLoader.swift */; };
+		0A514B5F270A0D430090C728 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A514B5E270A0D430090C728 /* HttpRequest.swift */; };
+		0A514B61270A2B070090C728 /* ExtensionDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A514B60270A2B070090C728 /* ExtensionDate.swift */; };
+		0A514B63270A2DF40090C728 /* Meteor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A514B62270A2DF40090C728 /* Meteor.swift */; };
+		0A514B79270B3E4B0090C728 /* DateFormatterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A514B78270B3E4B0090C728 /* DateFormatterTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A514B342709D5E70090C728 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A514B1F2709D5E70090C728 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A514B272709D5E70090C728;
+			remoteInfo = FallenMeteorAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A514B282709D5E70090C728 /* FallenMeteorAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FallenMeteorAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A514B2B2709D5E70090C728 /* FallenMeteorAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FallenMeteorAPI.h; sourceTree = "<group>"; };
+		0A514B2C2709D5E70090C728 /* FallenMeteorAPI.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FallenMeteorAPI.docc; sourceTree = "<group>"; };
+		0A514B322709D5E70090C728 /* FallenMeteorAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FallenMeteorAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A514B372709D5E70090C728 /* FallenMeteorAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallenMeteorAPITests.swift; sourceTree = "<group>"; };
+		0A514B4E2709DB9B0090C728 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		0A514B502709DDB90090C728 /* HttpClientTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClientTest.swift; sourceTree = "<group>"; };
+		0A514B522709EFF70090C728 /* ExtensionURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionURL.swift; sourceTree = "<group>"; };
+		0A514B542709F0E70090C728 /* CustomErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrors.swift; sourceTree = "<group>"; };
+		0A514B562709F2100090C728 /* TestURLComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestURLComponents.swift; sourceTree = "<group>"; };
+		0A514B582709F92A0090C728 /* ExtensionString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionString.swift; sourceTree = "<group>"; };
+		0A514B5A2709F9CB0090C728 /* StringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StringTest.swift; path = FallenMeteorAPI/StringTest.swift; sourceTree = SOURCE_ROOT; };
+		0A514B5C270A08710090C728 /* NetMeteorLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetMeteorLoader.swift; sourceTree = "<group>"; };
+		0A514B5E270A0D430090C728 /* HttpRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		0A514B60270A2B070090C728 /* ExtensionDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDate.swift; sourceTree = "<group>"; };
+		0A514B62270A2DF40090C728 /* Meteor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meteor.swift; sourceTree = "<group>"; };
+		0A514B78270B3E4B0090C728 /* DateFormatterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A514B252709D5E70090C728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A514B2F2709D5E70090C728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A514B332709D5E70090C728 /* FallenMeteorAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A514B1E2709D5E70090C728 = {
+			isa = PBXGroup;
+			children = (
+				0A514B2A2709D5E70090C728 /* FallenMeteorAPI */,
+				0A514B362709D5E70090C728 /* FallenMeteorAPITests */,
+				0A514B292709D5E70090C728 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A514B292709D5E70090C728 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A514B282709D5E70090C728 /* FallenMeteorAPI.framework */,
+				0A514B322709D5E70090C728 /* FallenMeteorAPITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A514B2A2709D5E70090C728 /* FallenMeteorAPI */ = {
+			isa = PBXGroup;
+			children = (
+				0A514B2B2709D5E70090C728 /* FallenMeteorAPI.h */,
+				0A514B2C2709D5E70090C728 /* FallenMeteorAPI.docc */,
+				0A514B4E2709DB9B0090C728 /* HttpClient.swift */,
+				0A514B522709EFF70090C728 /* ExtensionURL.swift */,
+				0A514B542709F0E70090C728 /* CustomErrors.swift */,
+				0A514B582709F92A0090C728 /* ExtensionString.swift */,
+				0A514B5C270A08710090C728 /* NetMeteorLoader.swift */,
+				0A514B5E270A0D430090C728 /* HttpRequest.swift */,
+				0A514B60270A2B070090C728 /* ExtensionDate.swift */,
+				0A514B62270A2DF40090C728 /* Meteor.swift */,
+			);
+			path = FallenMeteorAPI;
+			sourceTree = "<group>";
+		};
+		0A514B362709D5E70090C728 /* FallenMeteorAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A514B5A2709F9CB0090C728 /* StringTest.swift */,
+				0A514B562709F2100090C728 /* TestURLComponents.swift */,
+				0A514B372709D5E70090C728 /* FallenMeteorAPITests.swift */,
+				0A514B502709DDB90090C728 /* HttpClientTest.swift */,
+				0A514B78270B3E4B0090C728 /* DateFormatterTest.swift */,
+			);
+			path = FallenMeteorAPITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A514B232709D5E70090C728 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A514B392709D5E70090C728 /* FallenMeteorAPI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A514B272709D5E70090C728 /* FallenMeteorAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A514B3C2709D5E70090C728 /* Build configuration list for PBXNativeTarget "FallenMeteorAPI" */;
+			buildPhases = (
+				0A514B232709D5E70090C728 /* Headers */,
+				0A514B242709D5E70090C728 /* Sources */,
+				0A514B252709D5E70090C728 /* Frameworks */,
+				0A514B262709D5E70090C728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FallenMeteorAPI;
+			productName = FallenMeteorAPI;
+			productReference = 0A514B282709D5E70090C728 /* FallenMeteorAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0A514B312709D5E70090C728 /* FallenMeteorAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A514B3F2709D5E70090C728 /* Build configuration list for PBXNativeTarget "FallenMeteorAPITests" */;
+			buildPhases = (
+				0A514B2E2709D5E70090C728 /* Sources */,
+				0A514B2F2709D5E70090C728 /* Frameworks */,
+				0A514B302709D5E70090C728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A514B352709D5E70090C728 /* PBXTargetDependency */,
+			);
+			name = FallenMeteorAPITests;
+			productName = FallenMeteorAPITests;
+			productReference = 0A514B322709D5E70090C728 /* FallenMeteorAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A514B1F2709D5E70090C728 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					0A514B272709D5E70090C728 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					0A514B312709D5E70090C728 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 0A514B222709D5E70090C728 /* Build configuration list for PBXProject "FallenMeteorAPI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A514B1E2709D5E70090C728;
+			productRefGroup = 0A514B292709D5E70090C728 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A514B272709D5E70090C728 /* FallenMeteorAPI */,
+				0A514B312709D5E70090C728 /* FallenMeteorAPITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A514B262709D5E70090C728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A514B302709D5E70090C728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A514B242709D5E70090C728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A514B5D270A08710090C728 /* NetMeteorLoader.swift in Sources */,
+				0A514B61270A2B070090C728 /* ExtensionDate.swift in Sources */,
+				0A514B63270A2DF40090C728 /* Meteor.swift in Sources */,
+				0A514B592709F92A0090C728 /* ExtensionString.swift in Sources */,
+				0A514B4F2709DB9B0090C728 /* HttpClient.swift in Sources */,
+				0A514B552709F0E70090C728 /* CustomErrors.swift in Sources */,
+				0A514B532709EFF70090C728 /* ExtensionURL.swift in Sources */,
+				0A514B5F270A0D430090C728 /* HttpRequest.swift in Sources */,
+				0A514B2D2709D5E70090C728 /* FallenMeteorAPI.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A514B2E2709D5E70090C728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A514B572709F2100090C728 /* TestURLComponents.swift in Sources */,
+				0A514B512709DDB90090C728 /* HttpClientTest.swift in Sources */,
+				0A514B5B2709F9CB0090C728 /* StringTest.swift in Sources */,
+				0A514B79270B3E4B0090C728 /* DateFormatterTest.swift in Sources */,
+				0A514B382709D5E70090C728 /* FallenMeteorAPITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A514B352709D5E70090C728 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A514B272709D5E70090C728 /* FallenMeteorAPI */;
+			targetProxy = 0A514B342709D5E70090C728 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A514B3A2709D5E70090C728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0A514B3B2709D5E70090C728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0A514B3D2709D5E70090C728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 99H35PRZ8D;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shilei.meteors.FallenMeteorAPI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A514B3E2709D5E70090C728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 99H35PRZ8D;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shilei.meteors.FallenMeteorAPI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A514B402709D5E70090C728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99H35PRZ8D;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shilei.meteors.FallenMeteorAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A514B412709D5E70090C728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99H35PRZ8D;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shilei.meteors.FallenMeteorAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A514B222709D5E70090C728 /* Build configuration list for PBXProject "FallenMeteorAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A514B3A2709D5E70090C728 /* Debug */,
+				0A514B3B2709D5E70090C728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A514B3C2709D5E70090C728 /* Build configuration list for PBXNativeTarget "FallenMeteorAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A514B3D2709D5E70090C728 /* Debug */,
+				0A514B3E2709D5E70090C728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A514B3F2709D5E70090C728 /* Build configuration list for PBXNativeTarget "FallenMeteorAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A514B402709D5E70090C728 /* Debug */,
+				0A514B412709D5E70090C728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A514B1F2709D5E70090C728 /* Project object */;
+}
